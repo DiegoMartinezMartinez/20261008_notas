@@ -8,10 +8,11 @@ score = input("introduce la nota del examen (de 0 a 100): ")
 assistance = input("Introduce la asistencia de 0 a 100 sin %: ")
 #   - convertir nota y asistencia a int
 score = int(score)
+assistance = int(assistance)
 
 # asigno True o False a aprobado en base a las condiciones
 
 if score >= 70 and assistance >= 80:
-    print("Has aprobado maquina")
+    print("Has aprobado")
 else:
-    print("Matao, nos vemos en julio")
+    print("Ponte a estudiar para Julio")
